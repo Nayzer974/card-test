@@ -56,6 +56,7 @@ body{
           letter-spacing: 3px;
           padding-top: 10px;
           left: 50px;
+          text-decoration: none;
 				}
 				
 				
@@ -90,7 +91,7 @@ body{
 .back{
   transform:rotateY(-180deg);
   background:rgb(0, 0, 0);
-  color: #2ced2c;
+  color: #0fb60f;
 }
 .back:hover{
 
@@ -99,8 +100,8 @@ body{
   cursor:pointer;
 }
 #header :nth-child(2){
-  color: linear-gradient(45deg, #ff0000, #C669FF);
-  animation: hue-rotate 2s linear infinite alternate;
+  color: linear-gradient(45deg, #ff0000, #7dff69);
+  animation: hue-rotate 0.1s linear infinite alternate;
   right: 10px;
   position: absolute;
 }
@@ -108,13 +109,13 @@ body{
   to { filter: hue-rotate(90deg); }
 }
 #header :nth-child(2):hover{
-  background-color: linear-gradient(45deg, #ff0000, #C669FF);
-  animation: hue-rotate 2s linear infinite alternate;;
+  color: linear-gradient(45deg, #ff0000, blue );
+  animation: hue-rotate 0.5s linear infinite alternate;;
   text-decoration: underline;
   cursor: pointer;
 }
-#header :nth-child(2){
-  padding-left: 10px;
-  position: absolute;
-  right: 10px;
+#header :nth-child(1){
+  padding-left: 25px;
+  text-decoration: none;
+  color: #00FF00;
 }
