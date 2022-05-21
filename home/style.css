@@ -79,7 +79,7 @@ body{
 .front, .back{
   height:100%;
   width:100%;
-  background: #00FF00;
+  background: #0FB60F;
   position:absolute;
   border-radius:10px;
   backface-visibility: hidden;
@@ -100,7 +100,7 @@ body{
   cursor:pointer;
 }
 #header :nth-child(2){
-  color: linear-gradient(45deg, #ff0000, #7dff69);
+  color: linear-gradient(45deg, #ff0000, #C669FF);
   animation: hue-rotate 0.1s linear infinite alternate;
   right: 10px;
   position: absolute;
@@ -109,7 +109,7 @@ body{
   to { filter: hue-rotate(90deg); }
 }
 #header :nth-child(2):hover{
-  color: linear-gradient(45deg, #ff0000, blue );
+  background-color: linear-gradient(45deg, #ff0000, blue );
   animation: hue-rotate 0.5s linear infinite alternate;;
   text-decoration: underline;
   cursor: pointer;
