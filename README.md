@@ -1,2 +1,2 @@
 # card-test
-ceci est juste un test pour crée une carte rotatif
+Test page html avec carte rotatif 
