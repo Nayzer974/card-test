@@ -1,2 +1,1 @@
-# card-test
-Test page html avec carte rotatif 
+Projet html en cours
