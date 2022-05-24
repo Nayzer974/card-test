@@ -97,10 +97,11 @@ a{
   font-size: 1.5rem;
 }
 a:hover{
-  text-decoration: underline linear-gradient(50deg, #0000ff, #ff0000);
-  animation: hue-rotate 1s linear infinite alternate;
-  
+  color:  linear-gradient(40deg,red);
+  animation: hue-rotate 4s infinite;
+  text-decoration: underline;
 }
 @keyframes hue-rotate{
   to { filter: hue-rotate(90deg);}
+  
 }
