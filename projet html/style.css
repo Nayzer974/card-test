@@ -105,3 +105,15 @@ a:hover{
   to { filter: hue-rotate(90deg);}
   
 }
+.head3{
+  height: 20px;
+  width: 20px;
+  background: linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 255, 47));
+  animation: hue-rotate 2s linear infinite alternate;
+   z-index: 101;
+  border-radius: 100%;
+  cursor: pointer;
+  position: absolute;
+  
+  
+}
